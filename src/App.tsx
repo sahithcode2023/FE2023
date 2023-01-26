@@ -1,14 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import TestFunction from './Components/TestComponent';
+ import NareshFunctionIndia from './Components/NareshComponent'
 function App() {
   return (
     <div className="App">
+      <TestFunction/>
+      <TestFunction/>
+      <NareshFunctionIndia/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.In Sahith Branch.
+        <p className='RED'>
+          Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -19,7 +23,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className='RED'>Another Div </div>
+      
+   
+   
     </div>
+    
   );
 }
 
