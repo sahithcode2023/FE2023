@@ -3,11 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 import TestFunction from './Components/TestComponent';
  import NareshFunctionIndia from './Components/NareshComponent'
+import NavigationBar from './Components/NavigationComponent';
 function App() {
+  const ele=document.createElement("h1");
+  console.log(ele);
+  const jsxEle=<h1>JSXEle</h1>;
+  console.log(jsxEle);
   return (
     <div className="App">
       <TestFunction/>
       <TestFunction/>
+      <NavigationBar/>
       <NareshFunctionIndia/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
