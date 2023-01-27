@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+.RED{
+  color: red;
+}
+
+nav{
+  position: sticky;
+  top:0px;
+  background: linear-gradient(0.25turn,#e66465, #9198e5);
+}
+nav a{
+  text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+  color: greenyellow;
+  transition: .2s;
+}
+
+
+@media  only screen and (max-width: 767px) { 
+  nav ul li{
+    display:flex;
+    flex-direction: column;
+  }
+} 
+ @media  only screen and (min-width: 768px) { 
+  nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+  }
+ }
+ 
