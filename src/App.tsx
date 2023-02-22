@@ -9,6 +9,7 @@ import { ArrayComponentTwo } from './Components/AArrayComponent';
 import { ArrayArrowFunction } from './Components/AArrayComponent';
 import { ShowRoomMates } from './Components/AArrayComponent';
 import ABStateComponent from './Components/ABStatecomponent'
+import ACStateComponent from './Components/ACStateComponent';
 function App() {
   const ele=document.createElement("h1");
   console.log(ele);
@@ -21,6 +22,7 @@ function App() {
       <ArrayArrowFunction/>
       <ShowRoomMates/>
       <ABStateComponent/>
+      <ACStateComponent/>
       <TestFunction/>
       <TestFunction/>
       <NavigationBar/>

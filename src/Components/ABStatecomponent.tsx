@@ -9,7 +9,7 @@ export default function ABStateComponent(){
     //react-dom.development.js:16317 Uncaught Error: Too many re-renders. React limits the number of renders to prevent an infinite loop
     //endukante once setstate changes the state it again renders the function;
     ///////
-    if(name=='sahith')setName('sahith reddy');
+    if(name==='sahith')setName('sahith reddy');
     //name ==='sahith' && setName('sahith reddy')
     return(<>
         <div>ABStateComponent given name = {name}</div></>)
