@@ -4,6 +4,12 @@ import './App.css';
 import TestFunction from './Components/TestComponent';
  import NareshFunctionIndia from './Components/NareshComponent'
 import NavigationBar from './Components/NavigationComponent';
+import ArrayComponent from './Components/AArrayComponent';
+import { ArrayComponentTwo } from './Components/AArrayComponent';
+import { ArrayArrowFunction } from './Components/AArrayComponent';
+import { ShowRoomMates } from './Components/AArrayComponent';
+import ABStateComponent from './Components/ABStatecomponent'
+import ACStateComponent from './Components/ACStateComponent';
 function App() {
   const ele=document.createElement("h1");
   console.log(ele);
@@ -11,6 +17,12 @@ function App() {
   console.log(jsxEle);
   return (
     <div className="App">
+      <ArrayComponent/>
+      <ArrayComponentTwo/>
+      <ArrayArrowFunction/>
+      <ShowRoomMates/>
+      <ABStateComponent/>
+      <ACStateComponent/>
       <TestFunction/>
       <TestFunction/>
       <NavigationBar/>
